@@ -1,0 +1,13 @@
+E:\program\iar\arm\bin\armproc.dll
+
+ E:\program\iar\arm\bin\armjlink.dll
+
+ D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Exe\Example.out
+
+ --plugin=E:\program\iar\arm\bin\armLibSupportUniversal.dll
+
+ --flash_loader=E:\program\iar\arm\config\flashloader\FMSH\FM33FG06XA.board
+
+ 
+
+

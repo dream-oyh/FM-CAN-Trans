@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<settings>
+    <PlDriver>
+        <FirstRun>0</FirstRun>
+        <MemConfigValue>E:\program\iar\arm\config\debugger\FMSH\FM33FG06XA.ddf</MemConfigValue>
+    </PlDriver>
+    <PlDdfRanges>
+        <ConfigRanges0>Memory Periph 1073741824 164112 2</ConfigRanges0>
+        <ConfigRanges1>Memory SystemSFR 3758096384 1048576 2</ConfigRanges1>
+        <ConfigRanges2>Memory Flash 0 524288 1</ConfigRanges2>
+        <ConfigRanges3>Memory RAM 536870912 65536 0</ConfigRanges3>
+    </PlDdfRanges>
+    <PlCacheRanges>
+        <CustomRanges0>0 0 524288 1 0</CustomRanges0>
+        <CustomRangesText0 />
+        <CustomRanges1>0 536870912 65536 0 0</CustomRanges1>
+        <CustomRangesText1 />
+        <CustomRanges2>0 1073741824 164112 2 0</CustomRanges2>
+        <CustomRangesText2 />
+        <CustomRanges3>0 3758096384 1048576 2 0</CustomRanges3>
+        <CustomRangesText3 />
+    </PlCacheRanges>
+    <Trace1>
+        <Enabled>0</Enabled>
+        <ShowSource>1</ShowSource>
+    </Trace1>
+    <TerminalIO>
+        <InputSource>1</InputSource>
+        <InputMode2>10</InputMode2>
+        <Filename>$PROJ_DIR$\TermIOInput.txt</Filename>
+        <InputEcho>1</InputEcho>
+        <ShowReset>0</ShowReset>
+        <InputEncodingICU>0</InputEncodingICU>
+        <OutputEncodingICU>0</OutputEncodingICU>
+    </TerminalIO>
+    <Stack>
+        <FillEnabled>0</FillEnabled>
+        <OverflowWarningsEnabled>1</OverflowWarningsEnabled>
+        <WarningThreshold>90</WarningThreshold>
+        <SpWarningsEnabled>1</SpWarningsEnabled>
+        <WarnLogOnly>1</WarnLogOnly>
+        <UseTrigger>1</UseTrigger>
+        <TriggerName>main</TriggerName>
+        <LimitSize>0</LimitSize>
+        <ByteLimit>50</ByteLimit>
+    </Stack>
+    <Exceptions>
+        <StopOnUncaught>_ 0</StopOnUncaught>
+        <StopOnThrow>_ 0</StopOnThrow>
+    </Exceptions>
+    <JLinkDriver>
+        <jlinkResetStyle>12</jlinkResetStyle>
+        <jlinkResetStrategy>0</jlinkResetStrategy>
+        <MultiCoreRunAll>0</MultiCoreRunAll>
+        <LeaveTargetRunning>_ 0</LeaveTargetRunning>
+        <CStepIntDis>_ 0</CStepIntDis>
+    </JLinkDriver>
+    <ArmDriver>
+        <EnforceMemoryConfiguration>1</EnforceMemoryConfiguration>
+        <EnableCache>0</EnableCache>
+    </ArmDriver>
+    <DebugChecksum>
+        <Checksum>1265000442</Checksum>
+    </DebugChecksum>
+    <Disassembly>
+        <MixedMode>1</MixedMode>
+    </Disassembly>
+    <CallStack>
+        <ShowArgs>0</ShowArgs>
+    </CallStack>
+    <Trace2>
+        <Enabled>0</Enabled>
+        <ShowSource>0</ShowSource>
+    </Trace2>
+    <Aliases>
+        <Count>0</Count>
+        <SuppressDialog>0</SuppressDialog>
+        <SuppressResolveSourcesForDebugTarget>1</SuppressResolveSourcesForDebugTarget>
+    </Aliases>
+    <TermIOLog>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+    </TermIOLog>
+    <DisassembleMode>
+        <mode>0</mode>
+    </DisassembleMode>
+    <Breakpoints2>
+        <Count>0</Count>
+    </Breakpoints2>
+</settings>

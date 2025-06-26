@@ -1,0 +1,929 @@
+###############################################################################
+#
+# IAR ELF Linker V9.70.1.475/W64 for ARM                  26/Jun/2025  19:41:38
+# Copyright 2007-2025 IAR Systems AB.
+#
+#    Output file  =
+#        D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Exe\Example.out
+#    Map file     =
+#        D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\List\Example.map
+#    Command line =
+#        -f
+#        D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Exe\Example.out.rsp
+#        (D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\User_8454777428142420917.dir\can.o
+#        D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\User_8454777428142420917.dir\clock.o
+#        D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\FM33FG0xxA_FL_Driver_10186864012590462361.dir\fm33fg0xxa_fl.o
+#        D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\FM33FG0xxA_FL_Driver_10186864012590462361.dir\fm33fg0xxa_fl_adc.o
+#        D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\FM33FG0xxA_FL_Driver_10186864012590462361.dir\fm33fg0xxa_fl_aes.o
+#        D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\FM33FG0xxA_FL_Driver_10186864012590462361.dir\fm33fg0xxa_fl_atim.o
+#        D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\FM33FG0xxA_FL_Driver_10186864012590462361.dir\fm33fg0xxa_fl_bstim16.o
+#        D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\FM33FG0xxA_FL_Driver_10186864012590462361.dir\fm33fg0xxa_fl_bstim32.o
+#        D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\FM33FG0xxA_FL_Driver_10186864012590462361.dir\fm33fg0xxa_fl_can.o
+#        D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\FM33FG0xxA_FL_Driver_10186864012590462361.dir\fm33fg0xxa_fl_canfd.o
+#        D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\FM33FG0xxA_FL_Driver_10186864012590462361.dir\fm33fg0xxa_fl_clm.o
+#        D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\FM33FG0xxA_FL_Driver_10186864012590462361.dir\fm33fg0xxa_fl_cmu.o
+#        D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\FM33FG0xxA_FL_Driver_10186864012590462361.dir\fm33fg0xxa_fl_comp.o
+#        D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\FM33FG0xxA_FL_Driver_10186864012590462361.dir\fm33fg0xxa_fl_crc.o
+#        D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\FM33FG0xxA_FL_Driver_10186864012590462361.dir\fm33fg0xxa_fl_dac.o
+#        D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\FM33FG0xxA_FL_Driver_10186864012590462361.dir\fm33fg0xxa_fl_dma.o
+#        D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\FM33FG0xxA_FL_Driver_10186864012590462361.dir\fm33fg0xxa_fl_exti.o
+#        D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\FM33FG0xxA_FL_Driver_10186864012590462361.dir\fm33fg0xxa_fl_flash.o
+#        D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\FM33FG0xxA_FL_Driver_10186864012590462361.dir\fm33fg0xxa_fl_gpio.o
+#        D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\FM33FG0xxA_FL_Driver_10186864012590462361.dir\fm33fg0xxa_fl_gptim.o
+#        D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\FM33FG0xxA_FL_Driver_10186864012590462361.dir\fm33fg0xxa_fl_hdiv.o
+#        D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\FM33FG0xxA_FL_Driver_10186864012590462361.dir\fm33fg0xxa_fl_i2c_master.o
+#        D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\FM33FG0xxA_FL_Driver_10186864012590462361.dir\fm33fg0xxa_fl_i2c_smbus.o
+#        D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\FM33FG0xxA_FL_Driver_10186864012590462361.dir\fm33fg0xxa_fl_iwdt.o
+#        D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\FM33FG0xxA_FL_Driver_10186864012590462361.dir\fm33fg0xxa_fl_lptim16.o
+#        D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\FM33FG0xxA_FL_Driver_10186864012590462361.dir\fm33fg0xxa_fl_lptim32.o
+#        D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\FM33FG0xxA_FL_Driver_10186864012590462361.dir\fm33fg0xxa_fl_lpuart.o
+#        D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\FM33FG0xxA_FL_Driver_10186864012590462361.dir\fm33fg0xxa_fl_pgl.o
+#        D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\FM33FG0xxA_FL_Driver_10186864012590462361.dir\fm33fg0xxa_fl_pmu.o
+#        D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\FM33FG0xxA_FL_Driver_10186864012590462361.dir\fm33fg0xxa_fl_rng.o
+#        D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\FM33FG0xxA_FL_Driver_10186864012590462361.dir\fm33fg0xxa_fl_rtc.o
+#        D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\FM33FG0xxA_FL_Driver_10186864012590462361.dir\fm33fg0xxa_fl_sent.o
+#        D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\FM33FG0xxA_FL_Driver_10186864012590462361.dir\fm33fg0xxa_fl_spi.o
+#        D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\FM33FG0xxA_FL_Driver_10186864012590462361.dir\fm33fg0xxa_fl_svd.o
+#        D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\FM33FG0xxA_FL_Driver_10186864012590462361.dir\fm33fg0xxa_fl_tau.o
+#        D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\FM33FG0xxA_FL_Driver_10186864012590462361.dir\fm33fg0xxa_fl_uart.o
+#        D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\FM33FG0xxA_FL_Driver_10186864012590462361.dir\fm33fg0xxa_fl_wwdt.o
+#        D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\User_8454777428142420917.dir\gpio.o
+#        D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\User_8454777428142420917.dir\iwdt.o
+#        D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\User_8454777428142420917.dir\key.o
+#        D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\User_8454777428142420917.dir\lptim16.o
+#        D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\User_8454777428142420917.dir\main.o
+#        D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\MF-config_9726403788624824746.dir\mf_config.o
+#        D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\User_8454777428142420917.dir\rmu.o
+#        D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\IAR_1372238301680755391.dir\startup_fm33fg0xxa.o
+#        D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\User_8454777428142420917.dir\svd.o
+#        D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\CMSIS_6603591812247902717.dir\system_fm33fg0xxa.o
+#        --redirect _Printf=_PrintfFull --redirect _Scanf=_ScanfFull
+#        --no_out_extension -o
+#        D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Exe\Example.out
+#        --map
+#        D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\List\Example.map
+#        --config E:\program\iar\arm\config\linker\FMSH\FM33FG06XA.icf
+#        --semihosting --entry __iar_program_start --vfe --text_out locale
+#        --cpu=Cortex-M0+ --fpu=None) --diagnostics_format=sarif_stdout
+#        --dependencies=n
+#        D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Exe\Example.out.iar_deps
+#        --dynamic_output
+#        D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Exe\Example.out.iar_dynout
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__CPP_Runtime   = 1
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because --advanced_heap
+was not specified and the application did not appear to
+be primarily optimized for speed.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x0 {  ro section .intvec };
+"P1":  place in [from 0x0 to 0x7'ffff] {  ro };
+define block CSTACK with size = 2K, alignment = 8 { };
+define block HEAP with size = 0, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'ffff] {
+           rw,  block CSTACK,  block HEAP };
+initialize by copy {  rw };
+
+  Section            Kind         Address  Alignment    Size  Object
+  -------            ----         -------  ---------    ----  ------
+"A0":                                                   0xc0
+  .intvec            ro code          0x0          4    0xc0  startup_fm33fg0xxa.o [3]
+                                   - 0xc0               0xc0
+
+"P1":                                                 0x3bb9
+  .text              ro code         0xc0          4   0xd78  fm33fg0xxa_fl_can.o [2]
+  .text              ro code        0xe38          4   0xb5c  fm33fg0xxa_fl_exti.o [2]
+  .text              ro code       0x1994          2    0xae  I32DivModFast.o [7]
+  .text              ro code       0x1a42          2    0x3e  packbits_init_single.o [7]
+  .text              ro code       0x1a80          4     0x2  IntDivZer.o [7]
+  .text              ro code       0x1a82          2     0x2  startup_fm33fg0xxa.o [3]
+  .text              ro code       0x1a84          4   0x6f0  clock.o [5]
+  .text              ro code       0x2174          4   0x2a0  system_fm33fg0xxa.o [1]
+  .text              ro code       0x2414          4    0x4e  ABImemset.o [7]
+  .text              ro code       0x2462          2     0x2  startup_fm33fg0xxa.o [3]
+  .text              ro code       0x2464          4   0x2e0  fm33fg0xxa_fl_gpio.o [2]
+  .text              ro code       0x2744          4   0x100  fm33fg0xxa_fl.o [2]
+  .text              ro code       0x2844          4    0x18  fm33fg0xxa_fl.o [2]
+  .text              ro code       0x285c          4   0x64c  can.o [5]
+  .text              ro code       0x2ea8          2    0x18  fm33fg0xxa_fl.o [2]
+  .text              ro code       0x2ec0          4    0x60  fm33fg0xxa_fl.o [2]
+  .text              ro code       0x2f20          4   0x2c8  fm33fg0xxa_fl_lptim16.o [2]
+  .text              ro code       0x31e8          4   0x1f0  fm33fg0xxa_fl_svd.o [2]
+  .text              ro code       0x33d8          4   0x1f0  main.o [5]
+  .text              ro code       0x35c8          4   0x100  svd.o [5]
+  .text              ro code       0x36c8          4    0x50  iwdt.o [5]
+  .text              ro code       0x3718          4    0x30  rmu.o [5]
+  .text              ro code       0x3748          4    0xa8  lptim16.o [5]
+  .text              ro code       0x37f0          4    0x44  gpio.o [5]
+  .text              ro code       0x3834          4    0x78  key.o [5]
+  .text              ro code       0x38ac          4   0x138  fm33fg0xxa_fl_iwdt.o [2]
+  .rodata            const         0x39e4          4   0x144  fm33fg0xxa_fl_exti.o [2]
+  .text              ro code       0x3b28          4    0x48  startup_fm33fg0xxa.o [3]
+  .text              ro code       0x3b70          4    0x28  data_init.o [7]
+  .text              ro code       0x3b98          4    0x22  cmain.o [7]
+  .text              ro code       0x3bba          2     0x4  low_level_init.o [6]
+  .text              ro code       0x3bbe          2     0x8  exit.o [6]
+  .text              ro code       0x3bc6          2     0x2  startup_fm33fg0xxa.o [3]
+  .text              ro code       0x3bc8          4     0x4  cexit.o [7]
+  .text              ro code       0x3bcc          4     0xa  cexit_2.o [7]
+  .text              ro code       0x3bd6          2     0x2  startup_fm33fg0xxa.o [3]
+  .text              ro code       0x3bd8          4    0x14  exit.o [8]
+  .iar.init_table    const         0x3bec          4    0x10  - Linker created -
+  .text              ro code       0x3bfc          4    0x1c  cstartup_M.o [7]
+  .rodata            const         0x3c18          4    0x10  clock.o [5]
+  .rodata            const         0x3c28          4     0x4  clock.o [5]
+  .text              ro code       0x3c2c          2     0x2  startup_fm33fg0xxa.o [3]
+  .text              ro code       0x3c2e          2     0x2  startup_fm33fg0xxa.o [3]
+  .text              ro code       0x3c30          2     0x2  startup_fm33fg0xxa.o [3]
+  .text              ro code       0x3c32          2     0x2  startup_fm33fg0xxa.o [3]
+  .text              ro code       0x3c34          2     0x2  startup_fm33fg0xxa.o [3]
+  .text              ro code       0x3c36          2     0x2  startup_fm33fg0xxa.o [3]
+  .text              ro code       0x3c38          2     0x2  startup_fm33fg0xxa.o [3]
+  .text              ro code       0x3c3a          2     0x2  startup_fm33fg0xxa.o [3]
+  .text              ro code       0x3c3c          2     0x2  startup_fm33fg0xxa.o [3]
+  .text              ro code       0x3c3e          2     0x2  startup_fm33fg0xxa.o [3]
+  .text              ro code       0x3c40          2     0x2  startup_fm33fg0xxa.o [3]
+  .text              ro code       0x3c42          2     0x2  startup_fm33fg0xxa.o [3]
+  .text              ro code       0x3c44          2     0x2  startup_fm33fg0xxa.o [3]
+  .text              ro code       0x3c46          2     0x2  startup_fm33fg0xxa.o [3]
+  .text              ro code       0x3c48          2     0x2  startup_fm33fg0xxa.o [3]
+  .text              ro code       0x3c4a          2     0x2  startup_fm33fg0xxa.o [3]
+  .text              ro code       0x3c4c          2     0x2  startup_fm33fg0xxa.o [3]
+  .text              ro code       0x3c4e          2     0x2  startup_fm33fg0xxa.o [3]
+  .text              ro code       0x3c50          2     0x2  startup_fm33fg0xxa.o [3]
+  .text              ro code       0x3c52          2     0x2  startup_fm33fg0xxa.o [3]
+  .text              ro code       0x3c54          2     0x2  startup_fm33fg0xxa.o [3]
+  .text              ro code       0x3c56          2     0x2  startup_fm33fg0xxa.o [3]
+  .text              ro code       0x3c58          2     0x2  startup_fm33fg0xxa.o [3]
+  .text              ro code       0x3c5a          2     0x2  startup_fm33fg0xxa.o [3]
+  .text              ro code       0x3c5c          2     0x2  startup_fm33fg0xxa.o [3]
+  .text              ro code       0x3c5e          2     0x2  startup_fm33fg0xxa.o [3]
+  .text              ro code       0x3c60          2     0x2  startup_fm33fg0xxa.o [3]
+  .rodata            const         0x3c62                0x1  fm33fg0xxa_fl_exti.o [2]
+  .rodata            const         0x3c63                0x0  packbits_init_single.o [7]
+  Initializer bytes  const         0x3c63               0x16  <for P2-1>
+                                 - 0x3c79             0x3bb9
+
+"P2", part 1 of 2:                                      0x48
+  P2-1                        0x2000'0000               0x48  <Init block>
+    .data            inited   0x2000'0000          4     0x8  can.o [5]
+    .data            inited   0x2000'0008          4     0x4  system_fm33fg0xxa.o [1]
+    .data            inited   0x2000'000c          4     0x4  system_fm33fg0xxa.o [1]
+    .data            inited   0x2000'0010          4     0x4  system_fm33fg0xxa.o [1]
+    .bss             inited   0x2000'0014          4    0x14  can.o [5]
+    .bss             inited   0x2000'0028          4    0x14  can.o [5]
+    .bss             inited   0x2000'003c          4     0x4  clock.o [5]
+    .bss             inited   0x2000'0040          4     0x4  clock.o [5]
+    .bss             inited   0x2000'0044          4     0x4  lptim16.o [5]
+                            - 0x2000'0048               0x48
+
+"P2", part 2 of 2:                                     0x800
+  CSTACK                      0x2000'0048          8   0x800  <Block>
+    CSTACK           uninit   0x2000'0048              0x800  <Block tail>
+                            - 0x2000'0848              0x800
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+       0x3c79     0x7'ffff  0x7'c387
+  0x2000'0848  0x2000'ffff    0xf7b8
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Copy/packbits (__iar_packbits_init_single3)
+    1 source range, total size 0x16 (30% of destination):
+               0x3c63  0x16
+    1 destination range, total size 0x48:
+          0x2000'0000  0x48
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                   ro code  ro data  rw data
+    ------                   -------  -------  -------
+command line/config:
+    --------------------------------------------------
+    Total:
+
+D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\CMSIS_6603591812247902717.dir: [1]
+    system_fm33fg0xxa.o          672        4       12
+    --------------------------------------------------
+    Total:                       672        4       12
+
+D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\FM33FG0xxA_FL_Driver_10186864012590462361.dir: [2]
+    fm33fg0xxa_fl.o              400
+    fm33fg0xxa_fl_can.o        3'448
+    fm33fg0xxa_fl_exti.o       2'908      325
+    fm33fg0xxa_fl_gpio.o         736
+    fm33fg0xxa_fl_iwdt.o         312
+    fm33fg0xxa_fl_lptim16.o      712
+    fm33fg0xxa_fl_svd.o          496
+    --------------------------------------------------
+    Total:                     9'012      325
+
+D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\IAR_1372238301680755391.dir: [3]
+    startup_fm33fg0xxa.o         326
+    --------------------------------------------------
+    Total:                       326
+
+D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\MF-config_9726403788624824746.dir: [4]
+    --------------------------------------------------
+    Total:
+
+D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\User_8454777428142420917.dir: [5]
+    can.o                      1'612       14       48
+    clock.o                    1'776       22        8
+    gpio.o                        68
+    iwdt.o                        80
+    key.o                        120
+    lptim16.o                    168        2        4
+    main.o                       496
+    rmu.o                         48
+    svd.o                        256
+    --------------------------------------------------
+    Total:                     4'624       38       60
+
+dl6M_tlf.a: [6]
+    exit.o                         8
+    low_level_init.o               4
+    --------------------------------------------------
+    Total:                        12
+
+rt6M_tl.a: [7]
+    ABImemset.o                   78
+    I32DivModFast.o              174
+    IntDivZer.o                    2
+    cexit.o                        4
+    cexit_2.o                     10
+    cmain.o                       34
+    cstartup_M.o                  28
+    data_init.o                   40
+    packbits_init_single.o        62
+    --------------------------------------------------
+    Total:                       432
+
+shb_l.a: [8]
+    exit.o                        20
+    --------------------------------------------------
+    Total:                        20
+
+    Linker created                         16    2'048
+------------------------------------------------------
+    Grand Total:              15'098      383    2'120
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base        0x3bec          --   Gb  - Linker created -
+.iar.init_table$$Limit       0x3bfc          --   Gb  - Linker created -
+?main                        0x3b99         Code  Gb  cmain.o [7]
+ADC_IRQHandler               0x3c35         Code  Wk  startup_fm33fg0xxa.o [3]
+AES_IRQHandler               0x3c4f         Code  Wk  startup_fm33fg0xxa.o [3]
+ATIM_IRQHandler              0x3c5f         Code  Wk  startup_fm33fg0xxa.o [3]
+CANFD0_IRQHandler            0x3c31         Code  Wk  startup_fm33fg0xxa.o [3]
+CANFD1_IRQHandler            0x3c33         Code  Wk  startup_fm33fg0xxa.o [3]
+CAN_SetMsg                   0x2db1   0x2a  Code  Gb  can.o [5]
+CLMX_IRQHandler              0x3c5b         Code  Wk  startup_fm33fg0xxa.o [3]
+CMU_RCHF_Init_Data           0x3c28    0x4  Data  Gb  clock.o [5]
+CMU_XTHF_Init_Data           0x3c18   0x10  Data  Gb  clock.o [5]
+COMPX_IRQHandler             0x3c59         Code  Wk  startup_fm33fg0xxa.o [3]
+CSTACK$$Base            0x2000'0048          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'0848          --   Gb  - Linker created -
+Can_Controller_Init          0x2b51  0x192  Code  Gb  can.o [5]
+Can_Rx_SynSamp_Init          0x2b2d   0x1a  Code  Gb  can.o [5]
+DMA_IRQHandler               0x3c51         Code  Wk  startup_fm33fg0xxa.o [3]
+Data1                   0x2000'0000    0x8  Data  Gb  can.o [5]
+ECCC_RAMP_FDET_IRQHandler
+                             0x1d03   0xfc  Code  Gb  clock.o [5]
+EXTI_DAC_IRQHandler          0x34e1   0x66  Code  Gb  main.o [5]
+ExtiInfo                     0x39e4  0x144  Data  Lc  fm33fg0xxa_fl_exti.o [2]
+ExtiInfoNums                 0x3c62    0x1  Data  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_CAN_BUFFER_Write          0x2ce9   0x58  Code  Gb  can.o [5]
+FL_CAN_ClearFlag_BusOffRecovery
+                             0x295b    0x8  Code  Lc  can.o [5]
+FL_CAN_ClearFlag_RXNotEmpty
+                             0x297d    0x6  Code  Lc  can.o [5]
+FL_CAN_ClearFlag_Sleep       0x296b    0x8  Code  Lc  can.o [5]
+FL_CAN_ClearFlag_TXBufferEmpty
+                             0x29c1    0x8  Code  Lc  can.o [5]
+FL_CAN_ClearFlag_Wakeup
+                             0x2963    0x8  Code  Lc  can.o [5]
+FL_CAN_Disable               0x293b    0xa  Code  Lc  can.o [5]
+FL_CAN_Disable                 0xcb    0xa  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CAN_DisableAutoResend
+                              0x10d    0xa  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CAN_DisableIT_Sleep       0x29a3    0xa  Code  Lc  can.o [5]
+FL_CAN_DisableIT_Wakeup
+                             0x2999    0xa  Code  Lc  can.o [5]
+FL_CAN_DisableLoopBackMode
+                              0x12d    0xa  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CAN_DisableSleepMode
+                              0x141    0xa  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CAN_DisableWakeup           0xf7    0xa  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CAN_Enable                0x2931    0xa  Code  Lc  can.o [5]
+FL_CAN_Enable                  0xc1    0xa  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CAN_EnableAutoResend
+                              0x101    0xc  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CAN_EnableIT_BusOffRecovery
+                             0x2983    0xc  Code  Lc  can.o [5]
+FL_CAN_EnableIT_RXNotEmpty
+                             0x29ad    0xa  Code  Lc  can.o [5]
+FL_CAN_EnableLoopBackMode
+                              0x123    0xa  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CAN_EnableRXPresync       0x2945    0xc  Code  Lc  can.o [5]
+FL_CAN_EnableSleepMode        0x137    0xa  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CAN_EnableSoftwareReset
+                               0xd5    0xa  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CAN_EnableWakeup            0xeb    0xc  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CAN_FIFO_Read             0x2d45   0x6c  Code  Gb  can.o [5]
+FL_CAN_FilterEXT_DisableIDECompare
+                              0x295   0x1e  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CAN_FilterEXT_DisableRTRCompare
+                              0x1f1   0x1e  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CAN_FilterEXT_DisableSRRCompare
+                              0x34f   0x1e  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CAN_FilterEXT_EnableIDECompare
+                              0x275   0x20  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CAN_FilterEXT_EnableRTRCompare
+                              0x1d1   0x20  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CAN_FilterEXT_EnableSRRCompare
+                              0x32f   0x20  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CAN_FilterEXT_SetIDECompare
+                              0x4eb   0x20  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CAN_FilterEXT_SetRTRCompare
+                              0x459   0x20  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CAN_FilterEXT_SetSRRCompare
+                              0x54b   0x20  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CAN_FilterEXT_WriteEXTIDCompare
+                              0x479   0x22  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CAN_FilterEXT_WriteEXTIDCompareMask
+                              0x20f   0x22  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CAN_FilterEXT_WriteIDCompare
+                              0x5b5   0x20  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CAN_FilterEXT_WriteIDCompareMask
+                              0x3e9   0x20  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CAN_FilterInit             0x8c9  0x570  Code  Gb  fm33fg0xxa_fl_can.o [2]
+FL_CAN_FilterSTD1_DisableIDECompare
+                              0x2d3   0x1e  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CAN_FilterSTD1_DisableSRRCompare
+                              0x38d   0x1e  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CAN_FilterSTD1_EnableIDECompare
+                              0x2b3   0x20  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CAN_FilterSTD1_EnableSRRCompare
+                              0x36d   0x20  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CAN_FilterSTD1_SetIDECompare
+                              0x50b   0x20  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CAN_FilterSTD1_SetSRRCompare
+                              0x56b   0x20  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CAN_FilterSTD1_WriteEXTIDCompare
+                              0x4a1   0x22  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CAN_FilterSTD1_WriteEXTIDCompareMask
+                              0x231   0x22  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CAN_FilterSTD1_WriteIDCompare
+                              0x5d5   0x20  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CAN_FilterSTD1_WriteIDCompareMask
+                              0x409   0x20  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CAN_FilterSTD2_DisableIDECompare
+                              0x311   0x1e  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CAN_FilterSTD2_DisableSRRCompare
+                              0x3cb   0x1e  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CAN_FilterSTD2_EnableIDECompare
+                              0x2f1   0x20  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CAN_FilterSTD2_EnableSRRCompare
+                              0x3ab   0x20  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CAN_FilterSTD2_SetIDECompare
+                              0x52b   0x20  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CAN_FilterSTD2_SetSRRCompare
+                              0x591   0x20  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CAN_FilterSTD2_WriteEXTIDCompare
+                              0x4c9   0x22  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CAN_FilterSTD2_WriteEXTIDCompareMask
+                              0x253   0x22  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CAN_FilterSTD2_WriteIDCompare
+                              0x5f5   0x22  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CAN_FilterSTD2_WriteIDCompareMask
+                              0x429   0x22  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CAN_Filter_Disable         0x1c3    0xe  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CAN_Filter_Enable          0x1b7    0xc  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CAN_Filter_SetIDMode
+                              0x1a1   0x16  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CAN_Filter_SetMaskMode
+                              0x189   0x18  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CAN_Frame_Send            0x2de9   0x9e  Code  Gb  can.o [5]
+FL_CAN_Init                   0x64d  0x26a  Code  Gb  fm33fg0xxa_fl_can.o [2]
+FL_CAN_IsActiveFlag_BusOffRecovery
+                             0x2951    0xa  Code  Lc  can.o [5]
+FL_CAN_IsActiveFlag_FilterBusy
+                              0x17f    0xa  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CAN_IsActiveFlag_RXNotEmpty
+                             0x2973    0xa  Code  Lc  can.o [5]
+FL_CAN_IsActiveFlag_TXBufferEmpty
+                             0x29c9   0x1a  Code  Lc  can.o [5]
+FL_CAN_IsEnabledIT_BusOffRecovery
+                             0x298f    0xa  Code  Lc  can.o [5]
+FL_CAN_IsEnabledIT_RXNotEmpty
+                             0x29b7    0xa  Code  Lc  can.o [5]
+FL_CAN_ReadRXMessageID       0x2a97    0x8  Code  Lc  can.o [5]
+FL_CAN_ReadRXMessageLength
+                             0x2a9f    0xc  Code  Lc  can.o [5]
+FL_CAN_ReadRXMessageWord1
+                             0x2aab    0x8  Code  Lc  can.o [5]
+FL_CAN_ReadRXMessageWord2
+                             0x2ab3    0x8  Code  Lc  can.o [5]
+FL_CAN_SetAutoBusOffManagement
+                              0x117    0xc  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CAN_SetTXPriority           0xdf    0xc  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CAN_WriteBaudRatePrescaler
+                              0x14b    0xc  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CAN_WriteSyncJumpWidth
+                              0x157    0xe  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CAN_WriteTXMessageID
+                             0x29e3   0x2a  Code  Lc  can.o [5]
+FL_CAN_WriteTXMessageLength
+                             0x2a0d   0x36  Code  Lc  can.o [5]
+FL_CAN_WriteTXMessageWord1
+                             0x2a43   0x2a  Code  Lc  can.o [5]
+FL_CAN_WriteTXMessageWord2
+                             0x2a6d   0x2a  Code  Lc  can.o [5]
+FL_CAN_WriteTimeSegment1Length
+                              0x173    0xc  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CAN_WriteTimeSegment2Length
+                              0x165    0xe  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CMU_ClearFlag_PLLLostLock
+                             0x1bb7    0x8  Code  Lc  clock.o [5]
+FL_CMU_ClearFlag_SYSCSEWrong
+                             0x1bcb    0x8  Code  Lc  clock.o [5]
+FL_CMU_ClearFlag_XTHFFail
+                             0x1bdf    0x8  Code  Lc  clock.o [5]
+FL_CMU_DisableEXTIOnSleep
+                              0xe5f    0xc  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_CMU_DisableIT_PLLLostLock
+                             0x1be7   0xb8  Code  Lc  clock.o [5]
+FL_CMU_DisableIT_XTHFFail
+                             0x1bab    0xc  Code  Lc  clock.o [5]
+FL_CMU_EnableEXTIOnSleep
+                              0xe51    0xe  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_CMU_EnableGroup1BusClock
+                              0xe6b    0xa  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_CMU_EnableGroup1BusClock
+                             0x2465    0xa  Code  Lc  fm33fg0xxa_fl_gpio.o [2]
+FL_CMU_EnableGroup1BusClock
+                             0x38ad    0xa  Code  Lc  fm33fg0xxa_fl_iwdt.o [2]
+FL_CMU_EnableGroup1BusClock
+                             0x2f21    0xa  Code  Lc  fm33fg0xxa_fl_lptim16.o [2]
+FL_CMU_EnableGroup1BusClock
+                             0x31e9    0xa  Code  Lc  fm33fg0xxa_fl_svd.o [2]
+FL_CMU_EnableGroup3BusClock
+                              0x617    0xa  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CMU_EnableIT_SYSCKEWrong
+                             0x1b7b    0xc  Code  Lc  clock.o [5]
+FL_CMU_EnableIT_XTHFFail
+                             0x1b93    0xc  Code  Lc  clock.o [5]
+FL_CMU_EnableOperationClock
+                              0x621    0xa  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CMU_EnableOperationClock
+                              0xe75    0xa  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_CMU_EnableOperationClock
+                             0x2f2b    0xa  Code  Lc  fm33fg0xxa_fl_lptim16.o [2]
+FL_CMU_GetSystemClockSource
+                             0x1abd    0xa  Code  Lc  clock.o [5]
+FL_CMU_IsActiveFlag_SYSCSEWrong
+                             0x1bbf    0xc  Code  Lc  clock.o [5]
+FL_CMU_IsActiveFlag_XTHFFail
+                             0x1bd3    0xc  Code  Lc  clock.o [5]
+FL_CMU_IsEnabledIT_SYSCKEWrong
+                             0x1b87    0xc  Code  Lc  clock.o [5]
+FL_CMU_IsEnabledIT_XTHFFail
+                             0x1b9f    0xc  Code  Lc  clock.o [5]
+FL_CMU_PLL_IsEnabled         0x1aef    0xc  Code  Lc  clock.o [5]
+FL_CMU_RCHF_Enable           0x1ad5    0xc  Code  Lc  clock.o [5]
+FL_CMU_RCHF_SetFrequency
+                             0x1ac7    0xe  Code  Lc  clock.o [5]
+FL_CMU_RCHF_WriteTrimValue
+                             0x1ae1    0xe  Code  Lc  clock.o [5]
+FL_CMU_SetAHBPrescaler       0x1aa1    0xe  Code  Lc  clock.o [5]
+FL_CMU_SetAPB1Prescaler
+                             0x1a93    0xe  Code  Lc  clock.o [5]
+FL_CMU_SetAPB2Prescaler
+                             0x1a85    0xe  Code  Lc  clock.o [5]
+FL_CMU_SetEXTIClockSource
+                              0xe7f    0xe  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_CMU_SetFSCANClockSource
+                              0x62b    0xe  Code  Lc  fm33fg0xxa_fl_can.o [2]
+FL_CMU_SetLPTIM16ClockSource
+                             0x2f35    0xe  Code  Lc  fm33fg0xxa_fl_lptim16.o [2]
+FL_CMU_SetSystemClockSource
+                             0x1aaf    0xe  Code  Lc  clock.o [5]
+FL_CMU_XTHF_DisableBypass
+                             0x1b2f    0xc  Code  Lc  clock.o [5]
+FL_CMU_XTHF_Enable           0x1b63    0xc  Code  Lc  clock.o [5]
+FL_CMU_XTHF_EnableBypass
+                             0x1b15    0xe  Code  Lc  clock.o [5]
+FL_CMU_XTHF_GetStartWaitTime
+                             0x1b09    0xc  Code  Lc  clock.o [5]
+FL_CMU_XTHF_IsEnabled        0x1b6f    0xc  Code  Lc  clock.o [5]
+FL_CMU_XTHF_IsEnabledBypass
+                             0x1b23    0xc  Code  Lc  clock.o [5]
+FL_CMU_XTHF_IsReady          0x1b57    0xc  Code  Lc  clock.o [5]
+FL_CMU_XTHF_ReadDriverStrength
+                             0x1b4b    0xc  Code  Lc  clock.o [5]
+FL_CMU_XTHF_SetStartWaitTime
+                             0x1afb    0xe  Code  Lc  clock.o [5]
+FL_CMU_XTHF_WriteDriverStrength
+                             0x1b3b   0x10  Code  Lc  clock.o [5]
+FL_DelayInit                 0x2845   0x18  Code  Wk  fm33fg0xxa_fl.o [2]
+FL_DelayMs                   0x2ea9   0x18  Code  Wk  fm33fg0xxa_fl.o [2]
+FL_DelayUs                   0x2ec1   0x60  Code  Wk  fm33fg0xxa_fl.o [2]
+FL_EXTI_ClearFlag            0x18c1   0x9a  Code  Gb  fm33fg0xxa_fl_exti.o [2]
+FL_EXTI_CommonInit           0x1405   0x86  Code  Gb  fm33fg0xxa_fl_exti.o [2]
+FL_EXTI_GetTrigEdge          0x1685   0xf4  Code  Gb  fm33fg0xxa_fl_exti.o [2]
+FL_EXTI_Init                 0x148b  0x1b8  Code  Gb  fm33fg0xxa_fl_exti.o [2]
+FL_EXTI_IsActiveFlag         0x17ad   0xf4  Code  Gb  fm33fg0xxa_fl_exti.o [2]
+FL_FLASH_ClearFlag_ECCDetectionInCodeFlash
+                             0x33df   0x12  Code  Lc  main.o [5]
+FL_FLASH_ClearFlag_ECCDetectionInDataFlash
+                             0x33f7   0x12  Code  Lc  main.o [5]
+FL_FLASH_ClearFlag_ECCDetectionInRAM
+                             0x340f   0x12  Code  Lc  main.o [5]
+FL_FLASH_IsActiveFlag_ECCDetectionInCodeFlash
+                             0x33d9    0x6  Code  Lc  main.o [5]
+FL_FLASH_IsActiveFlag_ECCDetectionInDataFlash
+                             0x33f1    0x6  Code  Lc  main.o [5]
+FL_FLASH_IsActiveFlag_ECCDetectionInRAM
+                             0x3409    0x6  Code  Lc  main.o [5]
+FL_FLASH_SetCodeReadWait
+                             0x1cab    0xc  Code  Lc  clock.o [5]
+FL_FLASH_SetDataReadWait
+                             0x1c9f    0xc  Code  Lc  clock.o [5]
+FL_GPIO_ClearFlag_EXTI_PA
+                             0x1237    0x6  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_ClearFlag_EXTI_PB
+                             0x1255    0x6  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_ClearFlag_EXTI_PC
+                             0x1273    0x6  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_ClearFlag_EXTI_PD
+                             0x1291    0x6  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_ClearFlag_EXTI_PE
+                             0x12af    0x6  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_ClearFlag_EXTI_PF
+                             0x12cd    0x6  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_ClearFlag_EXTI_PG
+                             0x12eb    0x6  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_ClearFlag_EXTI_PH
+                             0x1309    0x6  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_ClearFlag_EXTI_PI
+                             0x1327    0x6  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_DisableDigitalFilterPA
+                             0x109d    0xa  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_DisableDigitalFilterPB
+                             0x10c9    0xa  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_DisableDigitalFilterPC
+                             0x10f5    0xa  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_DisableDigitalFilterPD
+                             0x1121    0xa  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_DisableDigitalFilterPE
+                             0x114d    0xa  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_DisableDigitalFilterPF
+                             0x1179    0xa  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_DisableDigitalFilterPG
+                             0x11a5    0xa  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_DisableDigitalFilterPH
+                             0x11d1    0xa  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_DisableDigitalFilterPI
+                             0x11fd    0xa  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_DisablePinInput
+                             0x2479    0xa  Code  Lc  fm33fg0xxa_fl_gpio.o [2]
+FL_GPIO_DisablePinOpenDrain
+                             0x24b5    0xa  Code  Lc  fm33fg0xxa_fl_gpio.o [2]
+FL_GPIO_DisablePullDown
+                             0x248d    0xa  Code  Lc  fm33fg0xxa_fl_gpio.o [2]
+FL_GPIO_DisablePullUp        0x24a1    0xa  Code  Lc  fm33fg0xxa_fl_gpio.o [2]
+FL_GPIO_EnableDigitalFilterPA
+                             0x1093    0xa  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_EnableDigitalFilterPB
+                             0x10bf    0xa  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_EnableDigitalFilterPC
+                             0x10eb    0xa  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_EnableDigitalFilterPD
+                             0x1117    0xa  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_EnableDigitalFilterPE
+                             0x1143    0xa  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_EnableDigitalFilterPF
+                             0x116f    0xa  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_EnableDigitalFilterPG
+                             0x119b    0xa  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_EnableDigitalFilterPH
+                             0x11c7    0xa  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_EnableDigitalFilterPI
+                             0x11f3    0xa  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_EnablePinInput       0x246f    0xa  Code  Lc  fm33fg0xxa_fl_gpio.o [2]
+FL_GPIO_EnablePinOpenDrain
+                             0x24ab    0xa  Code  Lc  fm33fg0xxa_fl_gpio.o [2]
+FL_GPIO_EnablePullDown       0x2483    0xa  Code  Lc  fm33fg0xxa_fl_gpio.o [2]
+FL_GPIO_EnablePullUp         0x2497    0xa  Code  Lc  fm33fg0xxa_fl_gpio.o [2]
+FL_GPIO_GetEXTIInputPinPA
+                             0x132d   0x18  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_GetEXTIInputPinPB
+                             0x1345   0x18  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_GetEXTIInputPinPC
+                             0x135d   0x18  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_GetEXTIInputPinPD
+                             0x1375   0x18  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_GetEXTIInputPinPE
+                             0x138d   0x18  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_GetEXTIInputPinPF
+                             0x13a5   0x18  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_GetEXTIInputPinPG
+                             0x13bd   0x18  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_GetEXTIInputPinPH
+                             0x13d5   0x18  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_GetEXTIInputPinPI
+                             0x13ed   0x18  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_GetTriggerEdgePA
+                              0xec9   0x1a  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_GetTriggerEdgePB
+                              0xeff   0x1a  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_GetTriggerEdgePC
+                              0xf35   0x1a  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_GetTriggerEdgePD
+                              0xf6b   0x1a  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_GetTriggerEdgePE
+                              0xfa1   0x1a  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_GetTriggerEdgePF
+                              0xfd7   0x1a  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_GetTriggerEdgePG
+                             0x100d   0x1a  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_GetTriggerEdgePH
+                             0x1043   0x1a  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_GetTriggerEdgePI
+                             0x1079   0x1a  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_Init                 0x2519  0x208  Code  Gb  fm33fg0xxa_fl_gpio.o [2]
+FL_GPIO_IsActiveFlag_EXTI_PA
+                             0x121f   0x18  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_IsActiveFlag_EXTI_PB
+                             0x123d   0x18  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_IsActiveFlag_EXTI_PC
+                             0x125b   0x18  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_IsActiveFlag_EXTI_PD
+                             0x1279   0x18  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_IsActiveFlag_EXTI_PE
+                             0x1297   0x18  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_IsActiveFlag_EXTI_PF
+                             0x12b5   0x18  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_IsActiveFlag_EXTI_PG
+                             0x12d3   0x18  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_IsActiveFlag_EXTI_PH
+                             0x12f1   0x18  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_IsActiveFlag_EXTI_PI
+                             0x130f   0x18  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_IsEnabledDigitalFilterPA
+                             0x10a7   0x18  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_IsEnabledDigitalFilterPB
+                             0x10d3   0x18  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_IsEnabledDigitalFilterPC
+                             0x10ff   0x18  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_IsEnabledDigitalFilterPD
+                             0x112b   0x18  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_IsEnabledDigitalFilterPE
+                             0x1157   0x18  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_IsEnabledDigitalFilterPF
+                             0x1183   0x18  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_IsEnabledDigitalFilterPG
+                             0x11af   0x18  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_IsEnabledDigitalFilterPH
+                             0x11db   0x18  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_IsEnabledDigitalFilterPI
+                             0x1207   0x18  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_ResetOutputPin       0x2ac1    0x6  Code  Lc  can.o [5]
+FL_GPIO_ResetOutputPin       0x3427    0x6  Code  Lc  main.o [5]
+FL_GPIO_SetOutputPin         0x2abb    0x6  Code  Lc  can.o [5]
+FL_GPIO_SetOutputPin         0x37f1    0x6  Code  Lc  gpio.o [5]
+FL_GPIO_SetOutputPin         0x3421    0x6  Code  Lc  main.o [5]
+FL_GPIO_SetPinDriveStrength
+                             0x24f7   0x1c  Code  Lc  fm33fg0xxa_fl_gpio.o [2]
+FL_GPIO_SetPinMode           0x24bf   0x1c  Code  Lc  fm33fg0xxa_fl_gpio.o [2]
+FL_GPIO_SetPinRemap          0x24db   0x1c  Code  Lc  fm33fg0xxa_fl_gpio.o [2]
+FL_GPIO_SetTriggerEdgePA
+                              0xead   0x1c  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_SetTriggerEdgePB
+                              0xee3   0x1c  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_SetTriggerEdgePC
+                              0xf19   0x1c  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_SetTriggerEdgePD
+                              0xf4f   0x1c  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_SetTriggerEdgePE
+                              0xf85   0x1c  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_SetTriggerEdgePF
+                              0xfbb   0x1c  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_SetTriggerEdgePG
+                              0xff1   0x1c  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_SetTriggerEdgePH
+                             0x1027   0x1c  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_GPIO_SetTriggerEdgePI
+                             0x105d   0x1c  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+FL_IWDT_Init                 0x390b   0xc8  Code  Gb  fm33fg0xxa_fl_iwdt.o [2]
+FL_IWDT_ReadCounter          0x38e1   0x16  Code  Lc  fm33fg0xxa_fl_iwdt.o [2]
+FL_IWDT_ReloadCounter        0x1cb7   0x12  Code  Lc  clock.o [5]
+FL_IWDT_ReloadCounter        0x38b7   0x12  Code  Lc  fm33fg0xxa_fl_iwdt.o [2]
+FL_IWDT_ReloadCounter        0x36c9   0x12  Code  Lc  iwdt.o [5]
+FL_IWDT_SetPeriod            0x38c9   0x18  Code  Lc  fm33fg0xxa_fl_iwdt.o [2]
+FL_IWDT_WriteWindow          0x38f7   0x14  Code  Lc  fm33fg0xxa_fl_iwdt.o [2]
+FL_Init                      0x2811    0x8  Code  Gb  fm33fg0xxa_fl.o [2]
+FL_LPTIM16_ClearFlag_Update
+                             0x3771    0x6  Code  Lc  lptim16.o [5]
+FL_LPTIM16_Enable            0x3749    0xa  Code  Lc  lptim16.o [5]
+FL_LPTIM16_EnableETRFilter
+                             0x2f43    0xc  Code  Lc  fm33fg0xxa_fl_lptim16.o [2]
+FL_LPTIM16_EnableIT_Update
+                             0x3753    0xa  Code  Lc  lptim16.o [5]
+FL_LPTIM16_Init              0x2fc9  0x21c  Code  Gb  fm33fg0xxa_fl_lptim16.o [2]
+FL_LPTIM16_IsActiveFlag_Update
+                             0x3767    0xa  Code  Lc  lptim16.o [5]
+FL_LPTIM16_IsEnabledIT_Update
+                             0x375d    0xa  Code  Lc  lptim16.o [5]
+FL_LPTIM16_SetClockSource
+                             0x2f4f    0xc  Code  Lc  fm33fg0xxa_fl_lptim16.o [2]
+FL_LPTIM16_SetETRCountEdge
+                             0x2f67    0xc  Code  Lc  fm33fg0xxa_fl_lptim16.o [2]
+FL_LPTIM16_SetETRTriggerEdge
+                             0x2f73    0xc  Code  Lc  fm33fg0xxa_fl_lptim16.o [2]
+FL_LPTIM16_SetEncoderMode
+                             0x2f7f    0xc  Code  Lc  fm33fg0xxa_fl_lptim16.o [2]
+FL_LPTIM16_SetOnePulseMode
+                             0x2f8b    0xc  Code  Lc  fm33fg0xxa_fl_lptim16.o [2]
+FL_LPTIM16_SetOperationMode
+                             0x2f97    0xc  Code  Lc  fm33fg0xxa_fl_lptim16.o [2]
+FL_LPTIM16_SetPrescaler
+                             0x2f5b    0xc  Code  Lc  fm33fg0xxa_fl_lptim16.o [2]
+FL_LPTIM16_WriteAutoReload
+                             0x2fa3    0xc  Code  Lc  fm33fg0xxa_fl_lptim16.o [2]
+FL_NVIC_Init                 0x2819   0x2c  Code  Gb  fm33fg0xxa_fl.o [2]
+FL_PMU_ClearFlag_WakeupDBG
+                             0x3437    0x8  Code  Lc  main.o [5]
+FL_PMU_IsActiveFlag_WakeupDBG
+                             0x342d    0xa  Code  Lc  main.o [5]
+FL_RMU_BOR_Enable            0x3725    0xa  Code  Lc  rmu.o [5]
+FL_RMU_BOR_SetThreshold
+                             0x3719    0xc  Code  Lc  rmu.o [5]
+FL_RMU_DisableCrystalStopReset
+                             0x1cf9    0xa  Code  Lc  clock.o [5]
+FL_RMU_SetSoftReset          0x343f    0x6  Code  Lc  main.o [5]
+FL_SVD_DisableDigitalFilter
+                             0x3209    0xa  Code  Lc  fm33fg0xxa_fl_svd.o [2]
+FL_SVD_DisableGATEn          0x3237    0xa  Code  Lc  fm33fg0xxa_fl_svd.o [2]
+FL_SVD_DisableSVSChannel
+                             0x324b    0xa  Code  Lc  fm33fg0xxa_fl_svd.o [2]
+FL_SVD_Enable                0x35c9    0xa  Code  Lc  svd.o [5]
+FL_SVD_EnableDigitalFilter
+                             0x31ff    0xa  Code  Lc  fm33fg0xxa_fl_svd.o [2]
+FL_SVD_EnableGATEn           0x322b    0xc  Code  Lc  fm33fg0xxa_fl_svd.o [2]
+FL_SVD_EnableReference       0x3255    0x8  Code  Lc  fm33fg0xxa_fl_svd.o [2]
+FL_SVD_EnableSVSChannel
+                             0x3241    0xa  Code  Lc  fm33fg0xxa_fl_svd.o [2]
+FL_SVD_GetLatchedPowerStatus
+                             0x35d3    0x8  Code  Lc  svd.o [5]
+FL_SVD_Init                  0x325d  0x16e  Code  Gb  fm33fg0xxa_fl_svd.o [2]
+FL_SVD_SetEnablePeriod       0x321f    0xc  Code  Lc  fm33fg0xxa_fl_svd.o [2]
+FL_SVD_SetWarningThreshold
+                             0x31f3    0xc  Code  Lc  fm33fg0xxa_fl_svd.o [2]
+FL_SVD_SetWorkMode           0x3213    0xc  Code  Lc  fm33fg0xxa_fl_svd.o [2]
+FSCAN_IRQHandler             0x2acd   0x50  Code  Gb  can.o [5]
+GPTIMX_IRQHandler            0x3c57         Code  Wk  startup_fm33fg0xxa.o [3]
+HardFault_Handler            0x34ab    0x8  Code  Gb  main.o [5]
+I2CMX_IRQHandler             0x3c41         Code  Wk  startup_fm33fg0xxa.o [3]
+I2C_SMBX_IRQHandler          0x3c4b         Code  Wk  startup_fm33fg0xxa.o [3]
+IWDT_Clr                     0x3705    0xa  Code  Gb  iwdt.o [5]
+IWDT_Init                    0x36db   0x2a  Code  Gb  iwdt.o [5]
+KEY_Init                     0x3835   0x78  Code  Gb  key.o [5]
+LED_Init                     0x37f7   0x38  Code  Gb  gpio.o [5]
+LPTIM16_Init                 0x379d   0x4c  Code  Gb  lptim16.o [5]
+LPTIM_BSTIM_IRQHandler       0x3777   0x26  Code  Gb  lptim16.o [5]
+LPUART_IRQHandler            0x3c61         Code  Wk  startup_fm33fg0xxa.o [3]
+NMI_Handler                  0x344f   0x5c  Code  Gb  main.o [5]
+NVIC_ClearPendingIRQ         0x288d   0x18  Code  Lc  can.o [5]
+NVIC_ClearPendingIRQ          0xe39   0x18  Code  Lc  fm33fg0xxa_fl_exti.o [2]
+NVIC_DisableIRQ              0x2875   0x18  Code  Lc  can.o [5]
+NVIC_DisableIRQ              0x275d   0x18  Code  Lc  fm33fg0xxa_fl.o [2]
+NVIC_EnableIRQ               0x285d   0x18  Code  Lc  can.o [5]
+NVIC_EnableIRQ               0x2745   0x18  Code  Lc  fm33fg0xxa_fl.o [2]
+NVIC_SetPriority             0x28a5   0x8c  Code  Lc  can.o [5]
+NVIC_SetPriority             0x2775   0x8c  Code  Lc  fm33fg0xxa_fl.o [2]
+NVMIF_IRQHandler             0x3c5d         Code  Wk  startup_fm33fg0xxa.o [3]
+PendSV_Handler               0x2463         Code  Wk  startup_fm33fg0xxa.o [3]
+Period10msFlag          0x2000'0044    0x4  Data  Gb  lptim16.o [5]
+PowerDownMonitoring          0x34b3   0x2e  Code  Lc  main.o [5]
+RCHFInit                     0x1e25   0xe4  Code  Lc  clock.o [5]
+RMU_BOR_Init                 0x372f   0x16  Code  Gb  rmu.o [5]
+RMU_Soft_SystemReset         0x3445    0xa  Code  Lc  main.o [5]
+RTC_IRQHandler               0x3c2f         Code  Wk  startup_fm33fg0xxa.o [3]
+Region$$Table$$Base          0x3bec          --   Gb  - Linker created -
+Region$$Table$$Limit         0x3bfc          --   Gb  - Linker created -
+Reset_Handler                0x3b29         Code  Wk  startup_fm33fg0xxa.o [3]
+RxMessage               0x2000'0028   0x14  Data  Gb  can.o [5]
+SENTX_IRQHandler             0x3c4d         Code  Wk  startup_fm33fg0xxa.o [3]
+SPI0_IRQHandler              0x3c43         Code  Wk  startup_fm33fg0xxa.o [3]
+SPI1_IRQHandler              0x3c45         Code  Wk  startup_fm33fg0xxa.o [3]
+SPI2_IRQHandler              0x3c47         Code  Wk  startup_fm33fg0xxa.o [3]
+SPI3_IRQHandler              0x3c49         Code  Wk  startup_fm33fg0xxa.o [3]
+SVC_Handler                  0x1a83         Code  Wk  startup_fm33fg0xxa.o [3]
+SVD_IRQHandler               0x3c2d         Code  Wk  startup_fm33fg0xxa.o [3]
+SVD_Init                     0x360b   0x5e  Code  Gb  svd.o [5]
+SVD_Result_Confirmed         0x3689   0x40  Code  Gb  svd.o [5]
+SVD_SVDR_POLL                0x3669   0x16  Code  Gb  svd.o [5]
+SVD_SVS_GPIO_Init            0x35db   0x30  Code  Lc  svd.o [5]
+SYSCLKSELErrorState     0x2000'003c    0x4  Data  Gb  clock.o [5]
+SYSCLKState             0x2000'0040    0x4  Data  Gb  clock.o [5]
+SwtichToMainSystemClock
+                             0x1f41   0xc4  Code  Gb  clock.o [5]
+SwtichToSenondarySystemClock
+                             0x1f09   0x2c  Code  Gb  clock.o [5]
+SysTick_Handler              0x3bc7         Code  Wk  startup_fm33fg0xxa.o [3]
+SystemClockSel_XTHF          0x2099   0x98  Code  Gb  clock.o [5]
+SystemCoreClock         0x2000'0010    0x4  Data  Gb  system_fm33fg0xxa.o [1]
+SystemCoreClockUpdate        0x221d   0xbc  Code  Gb  system_fm33fg0xxa.o [1]
+SystemInit                   0x22dd   0xc6  Code  Gb  system_fm33fg0xxa.o [1]
+SystemPLLClockUpdate         0x2175   0xa8  Code  Lc  system_fm33fg0xxa.o [1]
+TAU_PGL_IRQHandler           0x3c55         Code  Wk  startup_fm33fg0xxa.o [3]
+TxMessage               0x2000'0014   0x14  Data  Gb  can.o [5]
+UART0_IRQHandler             0x3c37         Code  Wk  startup_fm33fg0xxa.o [3]
+UART1_IRQHandler             0x3c39         Code  Wk  startup_fm33fg0xxa.o [3]
+UART2_IRQHandler             0x3c3b         Code  Wk  startup_fm33fg0xxa.o [3]
+UART3_IRQHandler             0x3c3d         Code  Wk  startup_fm33fg0xxa.o [3]
+UART4_UART5_IRQHandler       0x3c3f         Code  Wk  startup_fm33fg0xxa.o [3]
+WDT_IRQHandler               0x3bd7         Code  Wk  startup_fm33fg0xxa.o [3]
+WKUPX_IRQHandler             0x3c53         Code  Wk  startup_fm33fg0xxa.o [3]
+XTHFClock               0x2000'000c    0x4  Data  Gb  system_fm33fg0xxa.o [1]
+XTHFInit                     0x2005   0x88  Code  Gb  clock.o [5]
+XTLFClock               0x2000'0008    0x4  Data  Gb  system_fm33fg0xxa.o [1]
+__ICFEDIT_region_RAM_end__ {Abs}
+                        0x2000'ffff          --   Gb  <internal module>
+__ICFEDIT_region_RAM_start__ {Abs}
+                        0x2000'0000          --   Gb  <internal module>
+__aeabi_idiv0                0x1a81         Code  Gb  IntDivZer.o [7]
+__aeabi_memset               0x2415         Code  Gb  ABImemset.o [7]
+__aeabi_uidiv                0x1995         Code  Gb  I32DivModFast.o [7]
+__aeabi_uidivmod             0x1995         Code  Gb  I32DivModFast.o [7]
+__cmain                      0x3b99         Code  Gb  cmain.o [7]
+__exit                       0x3bd9   0x14  Code  Gb  exit.o [8]
+__iar_Memset4_word           0x2435         Code  Gb  ABImemset.o [7]
+__iar_Memset_word            0x2421         Code  Gb  ABImemset.o [7]
+__iar_data_init3             0x3b71   0x28  Code  Gb  data_init.o [7]
+__iar_packbits_init_single3
+                             0x1a43   0x3e  Code  Gb  packbits_init_single.o [7]
+__iar_program_start          0x3bfd         Code  Gb  cstartup_M.o [7]
+__low_level_init             0x3bbb    0x4  Code  Gb  low_level_init.o [6]
+__vector_table                  0x0         Data  Gb  startup_fm33fg0xxa.o [3]
+_call_main                   0x3ba5         Code  Gb  cmain.o [7]
+_exit                        0x3bc9         Code  Gb  cexit.o [7]
+_exit_2                      0x3bcd         Code  Gb  cexit_2.o [7]
+exit                         0x3bbf    0x8  Code  Gb  exit.o [6]
+main                         0x3547   0x5e  Code  Gb  main.o [5]
+
+
+[1] = D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\CMSIS_6603591812247902717.dir
+[2] = D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\FM33FG0xxA_FL_Driver_10186864012590462361.dir
+[3] = D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\IAR_1372238301680755391.dir
+[4] = D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\MF-config_9726403788624824746.dir
+[5] = D:\study\项目管理\202507优恩捷公司横向\项目资料\Dev_main\EWARM\Example\Obj\User_8454777428142420917.dir
+[6] = dl6M_tlf.a
+[7] = rt6M_tl.a
+[8] = shb_l.a
+
+  15'098 bytes of readonly  code memory
+     383 bytes of readonly  data memory
+   2'120 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
