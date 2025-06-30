@@ -240,7 +240,7 @@ int32_t Can_Controller_Init(void)
     CAN_InitStructure.BRP = 0;                                      /* 分频系数 */
     CAN_InitStructure.ABOM = FL_CAN_AUTO_MANAGE_HARDWARE;           /* 自动总线关闭管理 */
     CAN_InitStructure.AREN = FL_ENABLE;                             /* 自动重发使能 */
-    CAN_InitStructure.mode = FL_CAN_MODE_LOOPBACK;                    /* 工作模式设置 */
+    CAN_InitStructure.mode = FL_CAN_MODE_NORMAL;                    /* 工作模式设置 */
     CAN_InitStructure.clockSource = FL_CMU_FSCAN_CLK_SOURCE_APBCLK; /* 工作时钟选择 */
     CAN_InitStructure.TXPriority  = FL_CAN_TX_PRIORITY_BUFFER;      /* 发送优先级模式选择 */
     CAN_InitStructure.wakeup = FL_DISABLE;                          /* RX下降沿唤醒MCU使能 */
